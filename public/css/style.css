@@ -1,0 +1,468 @@
+/*--------------------PANTALLA PRINCIPAL-------------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+.logo-corazon {
+	display: inline;
+	height: 55px;
+	vertical-align: middle;
+	float: left;
+	position: absolute;
+	top: 7.5px;
+	margin-left: 19px;
+}
+
+.decorazon {
+	background: rgb(159,219,241);
+	height: 35px;
+}
+
+.busqueda {
+	background: rgb(26,190,219);
+	height: 35px;
+	padding-left: 85px;
+	line-height: 33px;
+}
+
+.buscar {
+	width: 172px;
+}
+
+.ingresar-registrarse-publicar {
+	display: inline;
+	position: absolute;
+	right: 32px;
+	top: 43px;
+	line-height: 17px;
+}
+
+.publicar-colecta {
+	color: rgb(255,255,255);
+	text-decoration: none;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+.ingresar {
+	color: rgb(255,255,255);
+	text-decoration: none;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+.registrarse {
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.usuario {
+	color: rgb(109,110,113);
+	text-decoration: none;
+	font-size: 18px;
+}
+
+h1 {
+	margin: 0px;
+	color: rgb(255,255,255);
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 90%;
+	padding-left: 85px;
+}
+
+.colectas {
+	border-top: 15px solid rgb(159,219,241);
+	margin-top: 20px;
+	width: 74%;
+	float: left;
+}
+
+.empresas {
+	border-top: 15px solid rgb(159,219,241);
+	margin-top: 20px;
+	width: 22%;
+	float: right;
+}
+
+.lista-colectas1 {
+	width: 49%;
+	float: left;
+}
+
+.lista-colectas2 {
+	width: 49%;
+	float: right;
+}
+
+.box-mayor {
+	width: 97%;
+	float: right;
+	margin-top: 30px;
+}
+
+.colecta {
+	box-shadow: 0px 0px rgb(26,190,229) inset;
+	width: 98%;
+	border: 1px solid rgb(190,190,190);
+	float: right;
+	display: block;
+}
+
+.colecta:hover {
+	box-shadow: 464px 170px rgb(26,190,229) inset;
+	-moz-transition: all 3.5;
+	-webkit-transition: all 3.5;
+	-o-transition: all 3.5;
+	transition: all 3.5;
+}
+
+.borde-vertical {
+	width: 2%;
+	height: 170px;
+	float: left;
+	margin-top: 0px;
+	background: rgb(26,190,229);
+	border-color: rgb(26,190,229);
+}
+
+.foto-colecta {
+	width: 44%;
+	float: left;
+	padding: 2%;
+}
+
+.colecta-contenido > .usuario {
+	float: left;
+	margin-top: 2%;
+}
+
+time {
+	color: rgb(109,110,113);
+	font-weight: normal;
+	font-size: 18px;
+	float: right;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+
+.descripcion-colecta {
+	color: rgb(109,110,113);
+	font-size: 20px;
+}
+
+.mas-info {
+	color: rgb(109,110,113);
+	font-size: 18px;
+	display: inline;
+	float: left;
+	margin-left: 2%; 
+	margin-top: 1%;
+}
+
+.ver-colecta {
+	text-decoration: none;
+	color: rgb(0,174,239);
+	font-size: 18px;
+	float: left;
+	margin-left: 2%; 
+	margin-top: 1%;
+}
+
+
+.foto-empresa {
+	width: 90%;
+	margin-top: 10%;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(26,190,229);
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(230,230,230);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(26,190,229); 
+}
+
+
+
+
+
+/*--------------------------CREA TU CUENTA----------------------------------*/
+
+.crea-tu-cuenta {
+	font-size: 30px;
+	color: rgb(109,110,113);
+	font-weight: normal;
+	margin-top: 26px;
+	margin-left: 18px;
+	margin-bottom: 5px;
+}
+
+.campo-mayor1 {
+	width: 90%;
+	margin-left: 4%;
+	margin-bottom: 1.5%;
+}
+
+.datos-personales {
+	border: 1px solid rgb(190,190,190);
+	margin-right: 5%;
+	height: 110px;
+	padding-top: 20px;
+	line-height: 1;
+}
+
+.datos-personales p {
+	display: inline;
+	margin-left: 7%;
+	font-size: 25px;
+	color: rgb(109,110,113);
+}
+
+.borde-azul {
+	width: 15px;
+	height: 110px;
+	float: left;
+	margin-top: 0px;
+	background: rgb(26,190,229);
+	border-color: rgb(26,190,229);
+}
+
+.nombre-apellido {
+	float: left;
+	width: 49%;
+}
+
+.email-celular {
+	float: right;
+	width: 49%;
+}
+
+.datos-personales input {
+	background-color: rgb(210,211,213);
+	border: 0;
+	font-size: 20px;
+}
+
+.campo-mayor2 {
+	width: 45%;
+	margin-left: 4%;
+	margin-bottom: 1.5%;
+}
+
+.datos-de-usuario {
+	border: 1px solid rgb(190,190,190);
+	height: 150px;
+	padding-top: 20px;
+	line-height: 1;
+}
+
+.datos-de-usuario p {
+	display: inline;
+	margin-left: 7%;
+	font-size: 25px;
+	color: rgb(109,110,113);
+}
+
+.borde-azul2 {
+	width: 15px;
+	height: 150px;
+	float: left;
+	margin-top: 0px;
+	background: rgb(26,190,229);
+	border-color: rgb(26,190,229);
+}
+
+.datos-de-usuario input {
+	background-color: rgb(210,211,213);
+	border: 0;
+	font-size: 20px;
+}
+
+.terminos-condiciones {
+	font-size: 20px;
+	font-family: sans-serif;
+	color: rgb(109,110,113);
+	position: absolute;
+    margin-top: -12.7%;
+    margin-left: 50.5%;
+    resize: none;
+    height: 150px;
+    width: 524px;
+    background: rgb(255,255,255);
+    border: 1px solid rgb(190,190,190);
+    padding: 1%;
+    padding-bottom: 1.5%;
+}
+
+.nombre {
+	width: 300px;
+}
+
+.apellido {
+	width: 288px;
+}
+
+.email {
+	width: 320px;
+}
+
+.celular {
+	width: 288px;
+}
+
+.nombre-usuario {
+	width: 235px;
+}
+
+.contraseña {
+	width: 333px;
+}
+
+.confirmar-contraseña {
+	width: 356px;
+}
+
+
+/*--------------------------COLECTA----------------------------------*/
+
+.foto-fecha-contacto  {
+	width: 32%;
+	float: left;
+}
+
+.imagen-colecta {
+	width: 90%;
+	margin: 5%;
+}
+
+.info-preguntas {
+	width: 66.5%;
+	float: right;
+	margin-right: 1.5%;
+}
+
+.fecha > h4 {
+	margin-left: 5%;
+	color: rgb(109,110,113);
+	font-weight: normal;
+	font-size: 18px;
+	display: inline;
+	margin-bottom: 1%;
+	line-height: 1.5;
+}
+
+.fecha > time {
+	color: rgb(26,190,229);
+	float: none;
+}
+
+.contacto > h4 {
+	margin-bottom: 0%;
+	margin-left: 5%;
+	color: rgb(109,110,113);
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.contacto > div > a {
+	text-decoration: none;
+	color: rgb(26,190,229);
+	font-size: 18px;
+	line-height: 0.5;
+}
+
+.info-preguntas > h2 {
+	color: rgb(109,110,113);
+	display: inline;
+	line-height: 69px;
+}
+
+.info-preguntas > .usuario {
+	color: rgb(26,190,229);
+	display: block;
+	line-height: 0;
+	margin-bottom: 0px;
+}
+
+.info-preguntas > p {
+	color: rgb(109,110,113);
+	font-size: 14px;
+	padding: 1%;
+}
+
+.info-preguntas > h6 {
+	color: rgb(109,110,113);
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 0%;
+	display: inline;
+}
+
+.info-preguntas > .lugar {
+	text-decoration: none;
+	color: rgb(26,190,229);
+	font-size: 18px;
+} 
+
+.divisor {
+	background-color: rgb(200,200,200);
+	border: 0;
+	height: 1px;
+}
+
+.info-preguntas > h4 {
+	color: rgb(109,110,113);
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 2%;
+}
+
+.usuario-pregunta {
+	display: inline;
+	margin-left: 1%;
+	color: rgb(26,190,229);
+	text-decoration: none;
+	font-size: 18px; 
+}
+
+.fecha-pregunta {
+	line-height: 0;
+}
+
+.comentario {
+	vertical-align: -20px;
+	margin-left: 1%;
+	width: 97%;
+}
+
+.facebook-img {
+	width: 10%;
+	margin-left: 4%;
+
+
+}
+
+.twitter-img {
+	width: 10%;
+	margin-left: 4%;
+
+}
+
+.instagram-img {
+	width: 7%;
+	margin-left: 5.5%;
+
+}
