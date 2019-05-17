@@ -7,14 +7,14 @@ Requisitos:
 
 Instalacion del proyecto:
 -------------------------
-git clone .. a "C:\deCoracon"
+git clone .. a "C:\deCorazon"
 
 Iniciar MongoDB en una terminal
 >cd C:\mongodb\bin\
 >mongod
 
 Abrir otra terminal e ir al directorio del proyecto
->cd C:\deCoracon\
+>cd C:\deCorazon\
 
 Instalar los modulos de node
 >npm install
